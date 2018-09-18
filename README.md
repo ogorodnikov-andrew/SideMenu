@@ -52,7 +52,7 @@ Check out the example project to see it in action!
 | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideOut.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideIn.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/Dissolve.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/InOut.gif) |
 
 ## Requirements
-- [x] Xcode 9.
+- [x] Xcode 10.
 - [x] iOS 9 or higher.
 
 ## Installation
@@ -254,7 +254,7 @@ The blur effect style of the menu if the menu's root view controller is a UITabl
 
 - Note: If you want cells in a UITableViewController menu to show vibrancy, make them a subclass of UITableViewVibrantCell and set the `blurEffectStyle` of each cell to SideMenuManager.default.menuBlurEffectStyle.
 */
-open var menuBlurEffectStyle: UIBlurEffectStyle?
+open var menuBlurEffectStyle: UIBlurEffect.Style?
 
 /// The left menu.
 open var menuLeftNavigationController: UISideMenuNavigationController?
